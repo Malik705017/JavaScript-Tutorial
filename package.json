@@ -1,0 +1,16 @@
+{
+  "name": "js-fundamental",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "malik <malik@25sprout.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.0"
+  },
+  "scripts": {
+    "format": "prettier --check .",
+    "format:write": "prettier --write ."
+  }
+}
