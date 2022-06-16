@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  display: flex;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 3px solid black;
+  min-height: 4rem;
+  flex-grow: 1;
+}
+
+.grandparent {
+  background-color: purple;
+  flex-direction: column;
+}
+
+.parent {
+  background-color: rgb(182, 1, 182);
+}
+
+.child {
+  background-color: rgb(255, 0, 255);
+}
