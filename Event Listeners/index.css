@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+div {
+  border: 1px solid black;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grandparent {
+  width: 400px;
+  background-color: purple;
+}
+
+.parent {
+  background-color: rgb(182, 1, 182);
+  width: 66%;
+}
+
+.child {
+  background-color: rgb(255, 0, 255);
+  width: 50%;
+}
